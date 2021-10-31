@@ -33,6 +33,7 @@ public class Task3 {
                         System.out.println("Вы ввели некорректный оператор");
                         break;
                 }
+                break;
             case 2:
                 System.out.println("Задайте размерность массива");
                 String[] arr = new String[s.nextInt()];
@@ -47,6 +48,8 @@ public class Task3 {
                     }
                 }
                 System.out.println(max);
+                break;
         }
+        s.close();
     }
 }
